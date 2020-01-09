@@ -1,0 +1,16 @@
+#banner-parent{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+#banner-list {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+  padding: 0;
+    text-align: right;
+}
+#banner-list li{
+    background-position: 100% .4em;
+    padding-right: .6em;
+}
