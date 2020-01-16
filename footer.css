@@ -58,7 +58,8 @@ footer a {
 }
 footer .input-group-addon {
     background-color: lightgreen;
-    padding: 9px;
+    padding: 7px;
+    border-radius: 1px;
 }
 .f-address li {
     display: inline-block;
