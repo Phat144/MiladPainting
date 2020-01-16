@@ -30,12 +30,3 @@
     display: flex;
     flex-direction: row;
 }
-
-.nav-style a:hover{
-    background-image: url(img/List-hover-PixTeller.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 0;
-    
-    color: black;
