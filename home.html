@@ -23,7 +23,7 @@
       <img src="img/webimg/logo.png" class="img-responsive center" alt="Responsive image" style="height: 100%;">
     </div>
     <div class="jumbotron slogan-img" style="background-color: white">
-      <ul id="banner-list">
+      <ul id="banner-list" style="background-color: transparent">
         <li class="list-style">
           <div class="list-icon">
             <div>
@@ -242,46 +242,34 @@
   <div class="container" style="margin-top:30px">
 
 
-    <div class="row">
-      <div class="col-sm-4">
-        <h2>About Me</h2>
-        <h5>Photo of me:</h5>
-        <div class="fakeimg">Fake Image</div>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        <h3>Some Links</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <ul class="nav nav-pills flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <hr class="d-sm-none">
+    <div class="row" id="wrapper">
+      <div class="col-sm-6 scrollbar" id="style-15">
+        <h2><b>Welcome To Milad Painting Service</b></h2>
+          <div class="force-overflow">
+            <p>Whether you want to embellish the interior spaces of your home or attract new customers to your business, Ansell Painting can provide the professional assistance that you need. With over 20 years of painting experience under our belts, our highly qualified specialists are among the best Melbourne house painters you can find.
+
+            If you’re looking for a one-stop shop for business and house painting services in Melbourne, you’ve come to the right place. Ansell Painting has developed a reputation for superior workmanship, using the latest equipment and methodologies to deliver the very best results when it comes to our commercial and residential painters’ services.
+              </p> <br/>
+
+              <h4><b>Commitment to House Painting Professionalism</b></h4>
+                <p>Our Melbourne house painters are committed to providing the highest quality services. Our company has met the following “Dulux Accredited Painters” rigorous requirements:
+
+                    Personally signed an Ethical and Professional Standards Agreement
+                    Provided two client references from work completed in the last twelve months
+                    Obtained an Assessment of Workmanship by Dulux
+                    Attended professional business seminars and Dulux Specialty product courses
+                    Minimum of $10 Million public liability insurance
+                    Comply with all safety regulations
+                        </p> <br/>
+                <h4><b>Our Reliability for House Painting</b></h4>
+                <p>At Ansell Painting, our reputation is extremely important to us. While other tradesmen may not even turn up, you can rely on our business and house painting services to arrive on time and carry out painting tasks in a timely and efficient manner.</p> <br/>
+
+            <h4><b>Experienced and Skilled Melbourne House Painters</b></h4>
+            <p>Our business and house painting services in Melbourne have been selected by Dulux for the experience and expertise we possess as well as the extra pride we take in every job.</p>
+          </div>
       </div>
-      <div class="col-sm-8">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg">Fake Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco.</p>
-        <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg">Fake Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco.</p>
+      <div class="col-sm-6" style="background-image: url(img/webimg/welcome.jpeg); background-size: cover">
+        
       </div>
     </div>
   </div>
@@ -343,7 +331,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+    <script>
+    $(document).ready(function () {
+          if (!$.browser.webkit) {
+              $('.wrapper').html('<p>Sorry! Non webkit users. :(</p>');
+          }
+      });
+</script>
 </body>
 
 </html>
