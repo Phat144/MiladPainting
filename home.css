@@ -45,27 +45,10 @@
     padding: 15px;
 }
 
-#left-welcome h2,
+.scrollbar h2,
 h4 {
     font-family: 'Zhi Mang Xing', cursive;
     text-align: center;
-}
-
-#left-welcome {
-    overflow: hidden;
-    position: relative;
-    width: 100%;
-    padding: 15px;
-}
-
-
-#welcome-poster {
-    height: 450px;
-    border: solid;
-    border-color: #09ed37;
-    border-radius: 5px;
-    margin-bottom: 10px;
-
 }
 
 .scrollbar {
@@ -109,6 +92,7 @@ h4 {
     border-radius: 10px;
     border-color: #00fa0c;
     background-color: #ECD9D5;
+    padding: 10px;
 }
 
 section {
@@ -120,3 +104,5 @@ section {
     background: black;
 
 }
+
+
