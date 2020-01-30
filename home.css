@@ -110,3 +110,13 @@ h4 {
     border-color: #00fa0c;
     background-color: #ECD9D5;
 }
+
+section {
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+
+#our-services {
+    background: black;
+
+}
