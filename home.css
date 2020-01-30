@@ -114,9 +114,16 @@ h4 {
 section {
     margin-top: 5px;
     margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 #our-services {
-    background: black;
+    background: rgb(248, 246, 246);
+
+}
+
+#our-services h2 {
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 40px;
 
 }
