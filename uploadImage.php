@@ -6,20 +6,15 @@ if ($conn) {
     if (isset($_POST['uploadfilesubmit'])) {
         $fileName = $_FILES['fileUpload']['name'];
         $filetmpName = $_FILES['fileUpload']['tmp_name'];
-        $folder = 'gallery/';
+        $fileType = $_FILES['fileUpload']['type'];
         $locationName = $_POST['location'];
-        
-        move_uploaded_file($filetmpName, $folder.$fileName);
-    
-    $sql = "INSERT INTO `uploadImage` (`imageFile`, `LocationName`) VALUES ('$fileName', '$locationName')";
-    
-    $qry = mysqli_query($conn, $sql);
-    if ($qry) {
-        echo "image uploaded";
+        for ($i=0; $i <= count($filetmpName)-1; $i++){
+            $name = addslashes($fileName[$i]);
+            $tmp = addslashes(file_get_contents($filetmpName[$i]));
+            $sql = "INSERT INTO `uploadImage` (`imgName`,`imageFile`, `LocationName`) VALUES ('$name','$tmp', '$locationName')";
+            $qry = mysqli_query($conn, $sql);
+        }
     }
-}
-
-
 ?>
 
 
@@ -27,7 +22,7 @@ if ($conn) {
 <html>
     <body>
         <form action="" method="post" enctype="multipart/form-data">
-            <input type="file" name="fileUpload" multiple="multiple">
+            <input type="file" name="fileUpload[]" multiple="multiple">
             <label for="location">Location:</label>
             <input type="text" name="location" id="location">
             <input type="submit" name="uploadfilesubmit" value="Upload Image">
