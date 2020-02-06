@@ -27,7 +27,7 @@ if ($conn) {
 <html>
     <body>
         <form action="" method="post" enctype="multipart/form-data">
-            <input type="file" name="fileUpload">
+            <input type="file" name="fileUpload" multiple="multiple">
             <label for="location">Location:</label>
             <input type="text" name="location" id="location">
             <input type="submit" name="uploadfilesubmit" value="Upload Image">
