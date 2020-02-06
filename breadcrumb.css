@@ -1,0 +1,41 @@
+#heading-breadcrumbs {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #8ff16b, #09790f, #49693b);
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+ul.breadcrumb {
+    padding: 15px 16px;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+}
+
+ul.breadcrumb li {
+    display: inline;
+    font-size: 20px;
+    font-family: 'Zhi Mang Xing', cursive;
+
+}
+
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+    color: rgb(5, 182, 34);
+    text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+#heading-breadcrumbs h1 {
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 50px;
+    color: white;
+}
