@@ -102,6 +102,23 @@ section {
 
 }
 
+#our-comments {
+    background-color: rgba(225, 237, 255, 0.199);
+
+}
+
+#our-comments h2 {
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 50px;
+
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
 
 #card-style {
     margin: 10px;

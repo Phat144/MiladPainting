@@ -10,6 +10,13 @@
   <link rel="stylesheet" href="banner.css">
   <link rel="stylesheet" href="nav.css">
   <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="breadcrumb.css">
+  <link rel="stylesheet" href="sidebar.css">
+  <link rel="stylesheet" href="service-sidebar.css">
+  <link rel="stylesheet" href="snackbar.css">
+
+
+
 
   <link href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" rel="stylesheet">
 
@@ -17,7 +24,7 @@
 
 <body>
 
-  <!-- Header -->
+  <!-- Logon Header -->
   <div class="container-fluid">
     <div class="row image-container" style="background-color: white; height: 80px;">
       <a href="home.html"><img src="img/webimg/logo.png" class="img-responsive center" alt="Responsive image"
@@ -55,11 +62,13 @@
     </div>
   </div>
 
+  <!-- navigation part -->
   <nav class="navbar navbar-expand-md  navbar-dark bg-dark" id="menu-nav">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation-bar"
       aria-controls="navigation-bar" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+
 
     <div class="collapse navbar-collapse" id="navigation-bar">
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -88,47 +97,113 @@
     </div>
   </nav>
 
+  <!-- Breadcrumb Part -->
+  <div id="heading-breadcrumbs">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="breadcrumb">
+            <li><a href="home.html">Home</a></li>
+            <li>About Us</li>
+          </ul>
+          <h1>About Us</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
   <div class="container" style="margin-top:30px">
     <div class="row">
-      <div class="col-sm-4">
-        <h2>About Me</h2>
-        <h5>Photo of me:</h5>
-        <div class="fakeimg">Fake Image</div>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        <h3>Some Links</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <ul class="nav nav-pills flex-column">
-          <li class="nav-item">
-            <a class="nav-link active" href="#">Active</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Disabled</a>
-          </li>
-        </ul>
-        <hr class="d-sm-none">
+      <div class="col-sm-10">
+        <h2 style="font-family: 'Zhi Mang Xing', cursive; font-size: 38px; font-weight:bold;">
+          Milad Painters Services</h2>
+        <p style="font-size: 18px;">Milad Painters Melbourne work to fulfill your painting needs and give you the best
+          painting experience ever! When you can easily get a dozen of painters in Melbourne to get your painting job
+          done, here are a few reasons why you need to approach Milad Painting…</p>
+        <br />
+
+        <h2 style="font-family: 'Zhi Mang Xing', cursive; font-size: 30px; font-weight:bold;">
+          Why Choose Milad Painters In Melbounre? Because...</h2>
+        <p style="font-size: 18px;">
+          &#10061; <strong>Professional work: before starting to paint, the surface to be painted must be inspected;
+            damages
+            must
+            be rectified, repaired and then painted. Painting on damages is an idea of an expensive flop! It’s not going
+            to
+            last long.</strong>
+          <br />
+          &#10061; <strong>Experience matters; an experienced painter will definitely offer better work than a
+            fresher.</strong>
+          <br />
+          &#10061; <strong>On time delivery</strong>
+          <br />
+          &#10061; <strong>Use premium quality products we use branded products that that are of superior
+            quality</strong>
+          <br />
+          &#10061; <strong>Quality work for less money!! Best value for your money</strong>
+          <br />
+          &#10061; <strong>Reliable, safe and friendly service.</strong>
+        </p>
+        </br>
+
+        <p style="font-size: 18px;">What more do you want?? Milad Painting offer a range of painting and decorative
+          services to make painting a pleasurable task. We have a team of proficient and best painters who are
+          passionate about painting and they make sure they satisfy the needs of their customers. Services we offer
+          include:
+        </p>
+        <a style="color: rgb(9, 161, 34);font-size: 18px;" href="residential-painting.html"> &#8680;
+          Residential
+          Painters</a>
+        </br>
+        <a style="color: rgb(9, 161, 34);font-size: 18px;" href="spray-painting.html"> &#8680; Spraying
+          Painters</a>
+        </br>
+        <a style="color: rgb(9, 161, 34);font-size: 18px;" href="roof-painting.html"> &#8680; Roof Painters</a>
+        </br>
+        <a style="color: rgb(9, 161, 34);font-size: 18px;" href="commerical-painting.html"> &#8680; Commercial
+          Painting</a>
+        </br>
+        <a style="color: rgb(9, 161, 34);font-size: 18px;" href="plastering.html"> &#8680; Plastering</a>
+        </br>
+        <a style="color: rgb(9, 161, 34);font-size: 18px;" href="dulux-colour-consultation.html"> &#8680; Dulux
+          Colour
+          Consultation</a>
+        </br>
+        </br>
+        <p style="font-size: 18px;">Why are you wait for!? You are just a <a href="javascript:void(0)"
+            onclick="mySnackbar()"><strong style="color: red;">CLICK
+            </strong></a>
+          away
+          to get your free quote!
+        </p>
+
+
+        <!-- snackbar part -->
+        <div class="col-sm-2">
+          <div id="snackbar">Call us today to get your free quote! <a style="color: rgb(142, 245, 211);"
+              href="tel:+6142130103">+61
+              421301030</a></div>
+        </div>
+
+
+
+
       </div>
-      <div class="col-sm-8">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg">Fake Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco.</p>
-        <br>
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Sep 2, 2017</h5>
-        <div class="fakeimg">Fake Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco.</p>
+      <div class="col-sm-2">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="residential-painting.html">Residential Painters</a>
+            <a href="spray-painting.html">Spraying Painters</a>
+            <a href="roof-painting.html">Roof Painters</a>
+            <a href="commerical-painting.html">Commercial Painters</a>
+            <a href="plastering.html">Plastering</a>
+            <a href="dulux-colour-consultation.html">Dulux Colour Consultation</a>
+          </div>
+        </div>
+
+        <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; Our Service</span>
       </div>
     </div>
   </div>
@@ -193,6 +268,14 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+  <script src="service-sidebar.js"></script>
+
+  <script src="snackbar.js"></script>
+
+
+
+
 </body>
 
 </html>
