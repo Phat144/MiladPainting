@@ -1,0 +1,22 @@
+.btn:focus,
+.btn:active,
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+#image-gallery .modal-footer {
+    display: block;
+}
+
+.thumb {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.img-thumbnail {
+    height: 300px;
+    width: 100%;
+}
