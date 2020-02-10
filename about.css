@@ -1,0 +1,21 @@
+/* Contact Phone */
+.btm_contact {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, rgb(221, 255, 220), rgb(158, 253, 5), #1FF042);
+    background-color: #1FF042;
+    margin: 15px;
+}
+
+.btm_contact p {
+    font-size: 30px;
+    font-family: 'Zhi Mang Xing', cursive;
+    font-weight: 900;
+    line-height: 40px;
+}
+
+.btm_contact a {
+    color: red;
+}
