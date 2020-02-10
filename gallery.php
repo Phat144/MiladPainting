@@ -1,8 +1,5 @@
 <?php
 $conn = mysqli_connect("localhost", "root", "", "miladPainting");
-if ($conn) {
-    echo "connected";  
-}
 ?>
 <!DOCTYPE html>
 <html lang="en">
